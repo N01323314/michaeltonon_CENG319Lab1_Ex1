@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LAB1</string>
+    <string name="topTitle">Life Cycle Methods Demonstration</string>
+    <string name="botTitle">Main Activity:</string>
+    <string name="create">onCreate executed</string>
+    <string name="start">onStart executed</string>
+    <string name="restart">onRestart executed</string>
+    <string name="pause">onPause executed</string>
+    <string name="resume">onResume executed</string>
+    <string name="stop">onStop executed</string>
+    <string name="destroy">onDestroy executed</string>
+</resources>
