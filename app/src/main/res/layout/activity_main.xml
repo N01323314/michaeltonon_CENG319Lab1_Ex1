@@ -22,13 +22,13 @@
 
         <fragment
             android:id="@+id/topfragment"
-            android:name="com.example.lab1.TopFragment"
+            android:name="com.example.michaeltonon_CENG319Lab1_Ex1.TopFragment"
             android:layout_width="match_parent"
             android:layout_height="285dp" />
 
         <fragment
             android:id="@+id/bottomfragment"
-            android:name="com.example.lab1.BottomFragment"
+            android:name="com.example.michaeltonon_CENG319Lab1_Ex1.BottomFragment"
             android:layout_width="match_parent"
             android:layout_height="341dp" />
     </LinearLayout>

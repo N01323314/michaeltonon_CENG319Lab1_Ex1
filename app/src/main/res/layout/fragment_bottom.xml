@@ -23,7 +23,7 @@
             android:id="@+id/cyclesactive"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAlignment="textEnd"
+            android:textAlignment="textStart"
             android:textColor="#FF45CB"
             android:textSize="24sp" />
 
@@ -31,7 +31,7 @@
             android:id="@+id/cyclesactive2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAlignment="textEnd"
+            android:textAlignment="textStart"
             android:textColor="#FF45CB"
             android:textSize="24sp" />
     </LinearLayout>

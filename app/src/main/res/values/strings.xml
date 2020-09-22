@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LAB1</string>
+    <string name="app_name">michaeltonon_CENG319Lab1_Ex1</string>
     <string name="topTitle">Life Cycle Methods Demonstration</string>
     <string name="botTitle">Main Activity:</string>
     <string name="create">onCreate executed</string>
