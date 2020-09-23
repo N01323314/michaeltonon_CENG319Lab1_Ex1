@@ -30,7 +30,7 @@
             android:id="@+id/bottomfragment"
             android:name="com.example.michaeltonon_CENG319Lab1_Ex1.BottomFragment"
             android:layout_width="match_parent"
-            android:layout_height="341dp" />
+            android:layout_height="415dp" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

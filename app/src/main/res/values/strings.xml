@@ -9,4 +9,11 @@
     <string name="resume">onResume executed</string>
     <string name="stop">onStop executed</string>
     <string name="destroy">onDestroy executed</string>
+    <string name="aiActivityTitle">AIActivity:</string>
+    <string name="vrActivityTitle">VRActivity:</string>
+    <string-array name="list">
+        <item>AIActivity</item>
+        <item>VRActivity</item>
+    </string-array>
+
 </resources>
