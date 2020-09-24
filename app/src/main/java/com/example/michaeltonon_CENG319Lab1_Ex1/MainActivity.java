@@ -13,8 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         fragment = (BottomFragment)getSupportFragmentManager().findFragmentById(R.id.bottomfragment);
-        boolean check = true;
-        fragment.displayCreate(check);
+        fragment.displayCreate();
         Log.d(tag, "In the onCreate() event");
     }
 
@@ -22,8 +21,7 @@ public class MainActivity extends AppCompatActivity {
     public void onStart() {
         super.onStart();
         fragment = (BottomFragment)getSupportFragmentManager().findFragmentById(R.id.bottomfragment);
-        boolean check = true;
-        fragment.displayStart(check);
+        fragment.displayStart();
         Log.d(tag, "In the onStart() event");
     }
 
@@ -31,8 +29,7 @@ public class MainActivity extends AppCompatActivity {
     public void onRestart() {
         super.onRestart();
         fragment = (BottomFragment)getSupportFragmentManager().findFragmentById(R.id.bottomfragment);
-        boolean check = true;
-        fragment.displayRestart(check);
+        fragment.displayRestart();
         Log.d(tag, "In the onRestart() event");
     }
 
@@ -40,8 +37,7 @@ public class MainActivity extends AppCompatActivity {
     public void onResume() {
         super.onResume();
         fragment = (BottomFragment)getSupportFragmentManager().findFragmentById(R.id.bottomfragment);
-        boolean check = true;
-        fragment.displayResume(check);
+        fragment.displayResume();
         Log.d(tag, "In the onResume() event");
     }
 
@@ -49,8 +45,7 @@ public class MainActivity extends AppCompatActivity {
     public void onPause() {
         super.onPause();
         fragment = (BottomFragment)getSupportFragmentManager().findFragmentById(R.id.bottomfragment);
-        boolean check = true;
-        fragment.displayPause(check);
+        fragment.displayPause();
         Log.d(tag, "In the onPause() event");
     }
 
@@ -58,20 +53,16 @@ public class MainActivity extends AppCompatActivity {
     public void onStop() {
         super.onStop();
         fragment = (BottomFragment)getSupportFragmentManager().findFragmentById(R.id.bottomfragment);
-        boolean check = true;
-        fragment.displayStop(check);
+        fragment.displayStop();
         Log.d(tag, "In the onStop() event");
     }
 
     @Override
     public void onDestroy() {
         fragment = (BottomFragment)getSupportFragmentManager().findFragmentById(R.id.bottomfragment);
-        boolean check = true;
-        fragment.displayDestroy(check);
+        fragment.displayDestroy();
         super.onDestroy();
         Log.d(tag, "In the onDestroy() event");
     }
-
-
 
 }

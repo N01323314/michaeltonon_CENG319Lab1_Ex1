@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 public class TopFragment extends Fragment {
 
@@ -25,6 +26,10 @@ public class TopFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_top, container, false);
         activity = getResources().getStringArray(R.array.list);
         final ListView listView = view.findViewById(R.id.listview);
+
+        String msg;
+        msg = getString(R.string.createView) + getString(R.string.topToast);
+        Toast.makeText(getContext(), msg, Toast.LENGTH_LONG).show();
 
         listView.setOnItemClickListener(new android.widget.AdapterView.OnItemClickListener() {
             @Override
@@ -49,5 +54,12 @@ public class TopFragment extends Fragment {
         return view;
     }
 
+    @Override
+    public void onStart(){
+        super.onStart();
+        String msg;
+        msg = getString(R.string.start) + getString(R.string.topToast);
+        Toast.makeText(getContext(), msg, Toast.LENGTH_LONG).show();
+    }
 
 }
